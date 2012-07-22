@@ -1,0 +1,21 @@
+// sketch 7.0   s07_config.cfgd
+// this sketch is part of the Helping Hands project
+//
+
+// Just one more thing before you should be ready to make a bunch of cool sketches: how to change the background color and other configuration variables.
+
+// turns out the default background is solid white, so to change it, we should treat it like any other transformation
+
+startshape helper
+
+// it starts as [ h 0 sat 0 b 1 a 1 ]
+
+CF::Background = [ b -1 ]
+
+shape helper {
+  SQUARE [b 1 sat 1 ] 
+}
+
+// The other config variables are advanced options that you can learn later on
+//
+// But if you're curious, I find the Symmetry and Tiling variables to be the most interesting.

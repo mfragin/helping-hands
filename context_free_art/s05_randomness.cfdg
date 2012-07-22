@@ -1,0 +1,47 @@
+// sketch 5.0   s05_randomness.cfgd
+// this sketch is part of the Helping Hands project
+//
+
+// One common questions is "how do I make something random in CFA?"
+//
+// The way to do this is to use a feature of CFA that allows you to define multiple versions of a particular rule.
+// Here's how it works:
+
+startshape segments
+
+shape segments {
+  loop 50 [ x 1.2 ] segment [ ]
+}
+
+
+shape segment   // notice there is no left brace here!
+  // instead of one rule here, let's use three
+  // the numbers after each rule are the relative weights for that rule
+  // in this case, for every circle that's randomly chosen, we will expect about three times as many squares.  Triangles are rare--only one on average for each circle we make.
+rule 1     { 
+  CIRCLE [ ]
+}
+rule 3 {
+  SQUARE [ ]
+}
+rule 0.1  {
+  TRIANGLE [ ]
+}
+
+
+// Just for fun  :-)
+
+shape flower  {
+  loop 36 [ r 10 ] segments [ ]
+}
+
+
+// NOTE: One more way to use random numbers
+//  for more, see: http://www.contextfreeart.org/mediawiki/index.php/Expressions
+
+shape random_dist {
+  loop 10 [ x randint(1,8) ] SQUARE [ ]
+}
+
+
+
