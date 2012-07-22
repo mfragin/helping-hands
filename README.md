@@ -3,7 +3,8 @@ helping-hands
 
 This is a collection of short example programs with extensive comments primarily aimed at students in my computer science classes.  The focus here is getting started with various languages and programming environments like the HTML5 Canvas, Nodebox, Structure Synth, Context Free Art, and so on.
 
-This was created by mFragin, who teaches Computer Science at Skyline High School.  Skyline is a school with both a strong STEM (Science, Technology, Engineering, and Mathematics) program, and also a super VPA (Visual and Performing Arts) program.  Because of this, I have, along with the help of graduage fellows from nearby CU-Boulder's school of Computer Science (and the ATLAS Institute), build a CS program that tries to be 50% Art and 50% Science.
+This was created by mFragin, who teaches Computer Science at Skyline High School.  Skyline is a school with both a strong STEM (Science, Technology, Engineering, and Mathematics) program, and also a super VPA (Visual and Performing Arts) program.  
+Because of this, I have, along with the help of graduage fellows from nearby CU-Boulders school of Computer Science (and the ATLAS Institute), build a CS program that tries to be 50% Art and 50% Science.
 
 http://skylinecomputerscience.com
 
