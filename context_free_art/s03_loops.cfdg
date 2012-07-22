@@ -1,0 +1,39 @@
+// sketch 3.0   s03_loops.cfgd
+// this sketch is part of the Helping Hands project
+//
+
+// Let's look at how to make things happen multiple times (looping).  
+//  in CFA 3 the loop syntax is how I use the loops in this sketch
+
+startshape helper
+
+// part one: simple repitition
+
+shape helper {
+
+// here is a basic loop that draws 10 squares, moving each 1.2 units along the x axis 
+ 
+  loop 10 [ x 1.2 ] SQUARE [ ]
+
+  // variations to try 
+  // loop 10 [ x 1.2 ] SQUARE [ s 1 10 ]
+  //loop 80 [ x 1.2 r 3 ] SQUARE [ ]
+  //loop 80 [ x 1.2 r 3 s 0.9 ] SQUARE [ ]
+  //loop 80 [ x 1.2 r 3 s 0.9 ] SQUARE [ s 1 10 ]
+}
+
+
+// part two:  Named Index Variables
+// You can also create loops in CFA that have a variable that you can utilize within the loop:
+
+//  This section has a shape named "helper_2"  
+//  To view this part, just change the startshape to "helper_2" at the top of this program
+
+// Note: the loops in part one of this program are technically "anonymous" loops.
+
+shape helper_2 {
+  // named loop
+  loop i = 20 [ x 2 ] SQUARE [ s 1 i ]
+
+}
+  

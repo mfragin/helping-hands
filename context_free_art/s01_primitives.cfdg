@@ -1,0 +1,30 @@
+// sketch 1.0   s01_primitives.cfgd
+// this sketch is part of the Helping Hands project
+//
+
+// A great thing about Context Free Art is how simple it is.  There
+// are only three basic shapes: square, circle, and triangle.
+//
+// Our goal in this sketch is a "hello world" approach where all we
+// want to do is simply draw the three primitive shapes.  In the process we will learn alot about the Context Free Art environment
+
+// We always need to start with a starting shape:
+// I'll call it "HELLO", but that's just a name.
+
+startshape HELLO
+
+// now we need to define what a HELLO shape is:
+
+shape HELLO
+{
+  // let's have it draw a circle
+  CIRCLE []
+  SQUARE [x 2]  // shift 2 places on x axis
+  TRIANGLE [ x 4 ] // shift 4 places
+}
+
+
+// At this point, don't worry about colors or sizes, let's learn
+// some basic tranformations first and then get to the finer points.
+//
+// ...but of course you may decide to figure out colors ahead of time!

@@ -1,0 +1,33 @@
+// sketch 4.0   s04_meta_shapes.cfgd
+// this sketch is part of the Helping Hands project
+//
+
+// Let's look at how to make things happen multiple times (looping).  
+//  in CFA 3 the loop syntax is how I use the loops in this sketch
+
+// When you make something cool, you can "encapsulate" those rules into one shape definition.
+//  The advantage here is that now your shape can be used just like any SQUARE or CIRCLE!
+
+
+// For this sketch, start with the first startshape and then try the other ones below it, by 
+// uncommenting them and commenting out the last used startshape
+
+startshape claw
+//startshape design
+//startshape many_designs
+
+shape claw {
+  loop 20 [ x 0.6 r 12 s 0.85 ] SQUARE [ ]
+}
+
+shape design {
+  loop 8 [ r 45 ] claw [ ] 
+}
+
+shape many_designs  {
+  
+  loop 8 [ x 6 ] design [ ]
+
+  // this variation makes an 8x8 grid:
+  //loop 8 [ x 6 ] loop 8 [ y 6 ] design [ ]
+}

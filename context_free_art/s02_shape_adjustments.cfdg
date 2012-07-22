@@ -1,0 +1,27 @@
+// sketch 2.0   s02_shape_adjustment.cfgd
+// this sketch is part of the Helping Hands project
+//
+
+// Let's look at the most powerful part of CFA: shape adjustments.
+// 
+// While working in CFA, you are basically making rules of how to draw new shapes based on other shapes, and for most it all comes back to either the simple circle or square shape.
+// In this sketch we'll look at the different types of shape adjustments that we can use.
+
+// IMPORTANT:  How to use this sketch
+//
+// In this sketch and in many on the Helping Hands project, you will see that there are many parts commented out.  
+// What you should do is run the sketch like it is, and then make changes and run the sketch again.  
+// Try variations by themselves, but also try some of them together
+
+startshape helper     
+
+shape helper {
+  // Experiment with the variations here:
+  SQUARE [  ]  // just a square
+  SQUARE [ x 3 ]  // translate on x axis
+  SQUARE [ x 3 y 1.1 ]  // translate along x and y axes
+  SQUARE [ x 5 r 20  ]  // r is rotation in degrees
+  SQUARE [[ r 20 x 5  ]]  //this syntax means "apply in order stated"
+  SQUARE [ x 10 s 3 ]  // s is scale so this one is 3 times as large
+  //SQUARE [[ s 5 x -1  ]]  // if you apply scale first, the units of tranlation are the new units after scaling
+}
