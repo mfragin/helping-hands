@@ -1,0 +1,20 @@
+#canvas {
+
+border: 1px solid #aaa;
+background-color: #fff;
+-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+-webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+
+}
+
+body {
+background-color: #DDF;
+margin: 0 50px 20px 50px ;
+}
+
+h1 {
+font-family: sans-serif;
+text-transform: capitalize;
+padding-left: 10px;
+}
