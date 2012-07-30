@@ -2,4 +2,6 @@ This directory contains scripts and examples to help students learn the Structur
 
 This is part of the helping-hands project started by mFragin
 
+Note: There are some images in here that show you the results you should get from some of the sketches.
+
 
