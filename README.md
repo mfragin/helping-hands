@@ -6,7 +6,7 @@ This is a collection of short example programs with extensive comments primarily
 This was created by mFragin, who teaches Computer Science at Skyline High School.  Skyline is a school with both a strong STEM (Science, Technology, Engineering, and Mathematics) program, and also a super VPA (Visual and Performing Arts) program.  
 Because of this, I have, along with the help of graduage fellows from nearby CU-Boulders school of Computer Science (and the ATLAS Institute), build a CS program that tries to be 50% Art and 50% Science.
 
-http://skylinecomputerscience.com
+http://futureskyline.com
 
 GENERATIVE ART
 
